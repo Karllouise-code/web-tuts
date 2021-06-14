@@ -230,6 +230,7 @@ h3 {
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    cursor: default;
 }
 
 .layer:hover h3 {
@@ -259,6 +260,7 @@ h3 {
 .facilities-col img {
     width: 100%;
     display: block;
+    border-radius: 10px;
 }
 
 .facilities-col p {
@@ -272,12 +274,18 @@ h3 {
 .facility-layer {
     background: transparent;
     position: absolute;
-    height: 100%;
+    height: 59.3%;
     width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
     transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+    .facility-layer {
+        height: 53.7%;
+    }
 }
 
 .facility-layer:hover {
@@ -357,4 +365,18 @@ h3 {
         margin-left: 0px;
         margin-right: 15px;
     }
+}
+
+
+/** CALL TO ACTION **/
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
 }
