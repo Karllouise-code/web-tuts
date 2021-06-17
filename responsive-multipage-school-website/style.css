@@ -106,7 +106,7 @@ nav .fa {
         display: block;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -520,4 +520,119 @@ h3 {
     color: #fff;
     padding: 5px 0;
     font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3 {
+    text-align: left;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: .5px solid #ccc;
+    outline: none;
+    background: #f0f0f0;
+    transition: .5s;
+}
+
+.comment-form input:hover,
+.comment-form textarea:hover {
+    border: .5px solid rgb(0, 0, 0);
+}
+
+.comment-form button {
+    margin: 10px 0;
+}
+
+@media(max-width:700px) {
+    .sub-header h1 {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+}
+
+
+/** CONTACT US PAGE **/
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-us .row {
+    align-items: center;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.contact-col input:hover,
+.contact-col textarea:hover {
+    border: 1px solid rgb(0, 0, 0);
 }
