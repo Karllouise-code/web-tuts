@@ -282,9 +282,105 @@ h3 {
     transition: 0.5s;
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 300px) {
+    .facility-layer {
+        height: 42.8%;
+    }
+    .facility-layer a h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .facility-layer {
+        height: 48.3%;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .facility-layer {
+        height: 53.8%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .facility-layer {
+        height: 54.8%;
+    }
+}
+
+@media only screen and (min-width: 410px) {
+    .facility-layer {
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 490px) {
     .facility-layer {
         height: 67.2%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .facility-layer {
+        height: 68.7%;
+    }
+    .facility-layer a h3 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .facility-layer {
+        height: 75.6%;
+    }
+    .facility-layer a h3 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .facility-layer {
+        height: 28.7%;
+    }
+    .facility-layer a h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .facility-layer a h3 {
+        font-size: 20px;
+    }
+    .facility-layer {
+        height: 32%;
+    }
+    .testimonials .row {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .facility-layer {
+        height: 36.3%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .facility-layer {
+        height: 43.5%;
+    }
+    .testimonials .row {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .facility-layer {
+        height: 59.3%;
+    }
+    .facility-layer a h3 {
+        font-size: 26px;
     }
 }
 
