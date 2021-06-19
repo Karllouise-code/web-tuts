@@ -385,7 +385,7 @@ h3 {
 
 @media only screen and (min-width: 1200px) {
     .facility-layer {
-        height: 59.3%;
+        height: 62.5%;
     }
     .facility-layer a h3 {
         font-size: 26px;
@@ -587,6 +587,18 @@ h3 {
     transition: 1s;
 }
 
+@media only screen and (max-width: 768px) {
+    .sub-header h1 {
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sub-header h1 {
+        margin-top: 25%;
+    }
+}
+
 
 /** BLOG-CONTENT **/
 
@@ -762,4 +774,29 @@ h3 {
 .contact-col input:hover,
 .contact-col textarea:hover {
     border: 1px solid rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-col span {
+        margin-right: 30px;
+    }
+}
+
+
+/** THANK YOU PAGE **/
+
+.thank-you {
+    margin: auto;
+    padding: 40px 0;
+}
+
+.thank-you h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.thank-you img {
+    margin-top: 20px;
+    width: 200px;
 }
