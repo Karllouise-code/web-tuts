@@ -15,6 +15,7 @@
 
 <body>
     <section class="sub-header">
+
         <nav>
             <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
             <div class="nav-links" id="navLinks">
@@ -29,6 +30,14 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+
+        <!--* Sticky Scroll *-->
+        <script type="text/javascript">
+            window.addEventListener("scroll", function() {
+                var header = document.querySelector("nav");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
 
         <h1>About Us</h1>
 

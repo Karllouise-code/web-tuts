@@ -30,6 +30,14 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
+        <!--* Sticky Scroll *-->
+        <script type="text/javascript">
+            window.addEventListener("scroll", function() {
+                var header = document.querySelector("nav");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
         <h1>Our Courses</h1>
     </section>
 
