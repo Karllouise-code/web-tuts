@@ -32,13 +32,7 @@
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
         </div>
-        <!--* Sticky Scroll *-->
-        <script type="text/javascript">
-            window.addEventListener("scroll", function() {
-                var header = document.querySelector(".container");
-                header.classList.toggle("sticky", window.scrollY > 0);
-            })
-        </script>
+
 
         <div class="text-box">
             <a href=""> <img src="images/logo.png"></a>
@@ -221,6 +215,14 @@
         </div>
         <p>Mockups with <i class="fa fa-heart-o"></i> by EasyTuts</p>
     </section>
+
+    <!--* Sticky Scroll *-->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector(".container");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
     <!--* JavaScript for Toggle Menu *-->
     <script>
