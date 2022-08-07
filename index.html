@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Tutorials</title>
+    <!-- font style -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- display flex 2 columns center -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Responsive Multipage School Website</h1>
+                <a href="/responsive-multipage-school-website"> <button type="button" class="hero-btn">Responsive School Website</button> </a>
+            </div>
+            <div class="col">
+                <h1>Trimex Landing Page</h1>
+                <a href="/trimex-landing-page-js"> <button type="button" class="hero-btn">Responsive School Website</button> </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        background: #8e7979;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    
+    }
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .col {
+       text-align: center;
+    }
+    .hero-btn {
+        background: #000;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #8e7979;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .hero-btn:hover {
+        background: #b3004a;
+        color: #000;
+    }
+
+
+</style>
